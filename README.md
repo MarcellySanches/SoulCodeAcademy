@@ -1,3 +1,3 @@
 # SoulCodeAcademy
 
-Projetos feito na SoulCode Academy
+Projetos feitos nas aula do curso SoulCode Academy
