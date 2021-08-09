@@ -1,3 +1,3 @@
 # SoulCodeAcademy
 
-Projeto de HTML+CSS feito em grupo.
+Projetos feito na SoulCode Academy
