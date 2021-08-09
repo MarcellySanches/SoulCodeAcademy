@@ -1,3 +1,3 @@
 # SoulCodeAcademy
 
-#Por Marcelly Sanches
+Projeto de HTML+CSS feito em grupo.
