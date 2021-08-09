@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.box_folheto {    
+    max-width: 33.333%;
+    padding: 2px;
+    margin-top: 10px;         
+}
+.blog_conteudo{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+div#banner_3, {
+    width: 100%;
+    margin: 0 auto;
+} 
+div#blog_backgroung {
+    margin-top: 20px;
+    background-image: radial-gradient(#ffd9a1, #FCB040);
+    /* background-color: #FCB040; */
+    height: 15vh;
+    text-align: center;
+    padding-top: 5vh;    
+}
+.folheto {
+    max-width: 100%;
+    max-height: 60vh;      
+}
+footer {
+    max-width: 100%;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(rgb(94, 165, 94), green);
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffd9a1;
+    font-size: 20px;
+    align-items: center;
+}
+.h1_ofertas {
+    font-size: 22px;
+    font-variant: all-small-caps;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-image: radial-gradient(rgb(106, 182, 106),green);
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1#blog_titulo {
+    color: green;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+h3#blog_subtitulo {
+    color: #7baa3e;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+header {   
+    background-image: radial-gradient(rgb(67, 153, 67) 5%, green);
+    width: 100%;
+    height: 15vh;
+}
+.item_menu {
+    color: orange;
+    font-variant: all-small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    font-size: 22px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    border: rgb(67, 153, 67) 1px solid;
+    margin: 5px;
+    border-radius: 5px;  
+}
+.item_menu:hover {
+    background: #ffd9a1;
+}
+img#banner_2 {
+    width: 100%;  
+}
+img#logo_cabecalho {
+    width: 15vh;
+    margin: 15px;
+}
+main {
+    background-color: rgb(228, 228, 228);
+}
+.menu {    
+    display: flex;    
+    justify-content: center;
+    max-width: 100%;   
+    max-height:5vh;
+    background-image: radial-gradient(rgb(67, 153, 67) 5%, green);          
+}
+.ofertas {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;    
+}
+
+.pai_corpo {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: white; 
+}
+
+
+
+

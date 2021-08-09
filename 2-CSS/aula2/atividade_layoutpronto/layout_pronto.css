@@ -1,0 +1,128 @@
+:root{
+    background-color: #00BFF2;
+    width: 800px;
+    margin: 50px auto;
+}
+footer{
+    clear: both;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#borda_externa {
+    border: 1px solid;
+    box-shadow: 5px 10px 10px black;
+}
+h1, h2, h3 {
+    font-variant: small-caps;
+}
+.fontes_verdes {
+    color: #508d05;
+}
+.fontes_azuis {
+    color: #047da5;
+}
+.menu {
+    list-style: none;    
+    margin: 0;
+    padding: 2px;
+    background-image: linear-gradient(rgb(66, 66, 66), grey,rgb(43, 43, 43));
+}
+.lista_menu {    
+    display: inline;
+    margin: 0;
+    border-right: 1px solid rgb(255, 255, 255, 0.2);        
+}
+.item_menu {
+    color: white;
+    padding: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 16px; 
+}
+ul#lista_2 {
+    line-height: 2;
+    font-weight: bold;
+}
+.divs_inferiores{
+    float: left;
+    width: 30%;
+    height: 300px;
+    border-right: 1px solid #026e8b;
+    margin: 10px;
+}
+div#para_ultima_div {
+    border-right: 0;
+}
+div#barra {
+    width: 100%;
+    height: 15px;
+    background-color: white;
+}
+div#barra2 {
+    width: 100%;
+    height: 15px;
+    background-image: linear-gradient(rgb(66, 66, 66), grey,rgb(43, 43, 43));
+    clear: both;
+    margin: 0 ;
+    padding: 0;
+}
+.bloco_1{
+    width: 100%;
+    height: 200px;
+    background-color: #E6E6E6;       
+}
+.bloco_2{
+    width: 100%;
+    height: 500px;
+}
+.bloco_3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    margin: 0;  
+} 
+.texto_1 {
+    width: 65%;
+    float: left;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.texto_2 {
+    margin-left: 20px;
+}
+div#img_olho {
+    float: right;    
+}
+.botao_verde {
+     clear: both;
+    width: 150px;
+    height: 20px;
+    background-image: linear-gradient(#9ACD18 50%, #70C608 50%);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 5px 50%; 
+    border: 0;    
+}
+.botao_azul {
+clear: both;
+   width: 70px;
+   height: 20px;
+   background-image: linear-gradient(#00C1F4 50%, #0487ac);
+   border-radius: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 10px;
+   color: white;
+   margin: 5px 0; 
+   border: 1px solid #017291;   
+}
+
+

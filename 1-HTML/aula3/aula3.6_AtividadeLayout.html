@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Layout com tabela</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+}
+.menu {
+  list-style: none;
+  border: 1px solid #c0c0c0;
+  float: left;
+}
+.menu li {
+  position: relative;
+  float: left;
+  border-right: 1px solid #c0c0c0;
+}
+.menu li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+.menu li a:hover {
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #ccc;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+.menu li ul {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+.menu li ul li {
+  border: 1px solid #c0c0c0;
+  display: block;
+  width: 150px;
+}
+    </style>
+</head>
+<body>
+    <table border="">
+        <thead>
+            <tr>
+                <td colspan="2" align="center"><h3>Pets</h3><img src="https://blogs.correiobraziliense.com.br/maisbichos/wp-content/uploads/sites/7/2018/02/c%C3%A3o-e-gato-juntos.jpg" alt="Cao e Gato" height="10%" width="10%"> </td>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr> 
+                <td colspan="2">   
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li>
+                                <a href="#">Pets</a>
+                                <ul>
+                                <li><a href="#">Cães</a></li>
+                                <li><a href="#">Gatos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Links</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5" height="300">conteúdo</td>
+                <td >menu item 1</td>
+            </tr>
+            <tr>
+                <td>menu item 2</td>
+            </tr>
+            <tr>
+                <td>item 3</td>
+            </tr>
+            <tr>
+                <td>item 4</td>
+            </tr>
+            <tr>
+                <td>item5</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" align="center">Fonte Royal Canin
+                    Autoras da página Marcelly e Nathalie
+                </td>
+
+            </tr>
+        </tfoot>
+    </table>
+    
+    
+</body>
+</html>

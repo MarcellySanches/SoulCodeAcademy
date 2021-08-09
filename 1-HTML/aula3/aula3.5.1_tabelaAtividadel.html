@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Layout Com Tabela</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+}
+.menu {
+  list-style: none;
+  border: 1px solid #c0c0c0;
+  float: left;
+}
+.menu li {
+  position: relative;
+  float: left;
+  border-right: 1px solid #c0c0c0;
+}
+.menu li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+.menu li a:hover {
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #ccc;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+.menu li ul {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+    </style>
+</head>
+<body>
+    <table border width="100%">
+
+        <thead>
+            <tr>
+                <td align="center" colspan="2"><h3>Pets</h3><img src="https://saude.abril.com.br/wp-content/uploads/2016/09/cao-gato-doencas-cardiacas-93611.jpg?quality=85&strip=info&resize=680,453" alt="Cão e Gato" width="10%"></td>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+          <td colspan="2" width="100%">
+            <nav>
+            <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li>  
+                <a href="#">Pets</a>
+                <ul>
+                <li><a href="#">Cães</a></li>
+                <li><a href="#">Gatos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Links</a></li>
+            <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+          </td>
+          </tr>
+          <tr>
+            <td rowspan="5">
+              <br>
+              <p align="center">Cães comportam-se como filhotes de lobos e brincam com o repertório comportamental dos seus ancestrais.<br>
+              A domesticação dos lobos, há mais de vinte mil anos, e toda a evolução dos cães após isso, realmente retirou destes a capacidade predatória natural.<br>
+              Porém, manteve neles a expressão de comportamentos que simulam aqueles comportamentos de caça, de abate e de predação,<br> 
+              apesar deles não conseguirem se alimentar dessa forma quando abandonados e sem cuidado humano (neste caso, é bem mais comum que ele revire lixo<br>
+              e coma restos de comidas.</p>
+              <br>
+              <p align="center">O comportamento dos felinos pode ser entendido facilmente através das orelhas.<br>
+              Quando elas estão eretas e viradas para frente, o animal está em estado de atenção.<br> 
+              Ao ficar com medo, o pet deixa elas abaixadas. <br>
+              Situações de confiança e agressividade são caracterizadas por orelhas erguidas viradas para trás.</p>
+              <br>            
+            </td>
+            <td>
+              <nav>
+               <ul align="center" class="vertical">
+                   <a href="#">Nutrição e Alimentação Para Cães</a> 
+                   <br>
+                   <a href="#">Nutrição e Alimentação Para Gatos</a> 
+                   <br>
+                   <a href="#">Primeiros Socorros</a> 
+                   <br>
+                   <a href="#">Dicas de Bem Estar Animal</a>
+               </ul>
+              </nav>
+            </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2" align="center">AUTORES: Marcelly e Nathalie
+            </td>
+            </tr>
+        </tfoot>    
+        </table>
+</body>

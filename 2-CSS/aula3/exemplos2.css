@@ -1,0 +1,6 @@
+div#div1 {
+    border: black 1px solid;
+    width: 600px;
+    height: 200px;
+    overflow: auto;
+}

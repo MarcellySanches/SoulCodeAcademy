@@ -1,0 +1,79 @@
+body{
+    width: 1124px;
+    height: 600px;
+    border: black solid 1px;
+}
+header {
+    width: 1044px;
+    height: 100px;
+    border: black solid 1px;
+    margin-top: 20px;
+    margin-left: 40px; 
+    background: black;  
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(217, 241, 246);
+}
+.pai {
+    width: 500px;
+    height: 400px;
+    border: black solid 1px;
+    position: relative;
+    margin: 40px;
+}
+div#div1 {
+    width: 250px;
+    height: 150px;
+    border: black solid 1px;
+    position: relative;
+    top: 5px;
+    left: 240px;
+    background: rgb(83, 160, 156)
+       
+}
+div#div2 {
+    width: 250px;
+    height: 150px;
+    border: black solid 1px;
+    position: relative;
+    left: 10px;
+    top: 90px;
+    z-index: 4;
+    background: rgb(96, 192, 187)
+}
+.img1_medina {
+    width: 40%;
+    position: absolute;
+    left: 150px;
+    bottom: 140px;
+}
+div#quadrado_direito {
+    position: relative;
+    left: 540px;
+    bottom: 442px;
+    background: rgb(96, 192, 187)
+    
+}
+div#div3 {
+    width: 494px;
+    height: 150px;
+    position: relative;
+    left: 3px;
+    border: black solid 1px;        
+    background: rgb(247, 247, 174)
+}
+p#noticia_box1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+p#noticia_box2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+

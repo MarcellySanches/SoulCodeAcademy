@@ -1,0 +1,67 @@
+@import url("../css/style.css");
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: var(--description-font);
+    background: rgba(0,0,0,0.8);
+    z-index: 2;
+    opacity: 0;
+    /* transition: all .4s ease-in; */
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-container {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    background: var(--list-color);  
+}
+
+.close-modal{
+    position: absolute;
+    width: 30px;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.close-modal i{ 
+    color: var(--red-color);
+    font-size: 25px;
+}
+
+.modal-card{    
+    display: flex;
+    border-radius: 8px;
+    margin: 8px 0;
+    border: 2px solid var(--grape2-color);
+    background-color: var(--grape-color);
+}
+
+.modal-card .modal-description{    
+    padding: 4px 10px 0px;
+}
+
+.modal-container h2{
+    color: #000;
+}
+
+.modal-card img{    
+    width: 100px;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --grape-color: rgb(153, 88, 153);
+    --grape2-color: rgb(100, 41, 100);
+    --red-color: #8d020b;
+    --description-font: 'Roboto', sans-serif;
+    --list-color: rgb(231, 221, 221);
+}
+
+.produtos_card{
+    display: flex;
+    background-color: rgb(100, 41, 100);
+    color: var(--list-color);
+    padding: 20px 0;
+    font-family: var(--description-font);
+    text-align: justify;
+}
+
+.produtos_card:nth-child(odd){
+    background-color: var(--grape-color);
+}
+
+.produtos_card:nth-child(odd) figure{
+    order: 1;
+}
+
+.produtos_card figure{
+    width: 40%;
+    background-image: url("../img/banner2_Prancheta\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* height auto para não distorcer a imagem */
+.produtos_card img{
+    opacity: 1;
+    width: 100%;
+    padding: 10px 0;
+    height: auto;
+}
+
+.produtos_card figure figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0,0,0,.3);
+    opacity: 0;
+    transition: all .8s ease;
+}
+
+.produtos_card figure:hover figcaption{
+    opacity: 1;
+    transition: all .8s ease;
+}
+
+/* puxando as informações apenas do box div=class "produtos_card" */
+.produtos_description{
+    width: 60%;
+    margin: 0 20px;
+}
+
+/* referenciando o h2 dentro da class= */
+.produtos_description h2{
+    margin-bottom: 5px;
+}
+
+.produtos_description p{
+    line-height: 20px;
+    padding: 5px 0;
+}

@@ -1,0 +1,57 @@
+main {
+    border: 1px solid;
+    width: 80%;
+    margin: 0 auto;
+}
+section{
+    width: auto;
+    height: 600px;
+    margin: 100px 300px;
+}
+div{
+    font-size: 18px;
+    width: 40%;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 5px;
+    float: left    
+}
+div#linear1 {
+    background-image: linear-gradient(to bottom, rgb(138, 66, 94), pink, rgb(253, 115, 138));
+}
+div#linear2 {
+    background-image: linear-gradient(to right, rgb(66, 85, 138), rgb(198, 192, 255), rgb(115, 124, 253));
+}
+div#linear3 {
+    background-image: linear-gradient(to bottom right, rgb(3, 94, 33), rgb(7, 148, 31), rgb(6, 247, 106));
+}
+div#linear4 {
+    background-image: linear-gradient(to bottom right, rgb(17, 3, 94), rgb(6, 108, 241), rgb(68, 182, 202));
+}
+div#linear5 {
+    background-image: linear-gradient(to bottom right, rgb(253, 195, 5), rgb(204, 145, 18), rgb(248, 59, 59));
+}
+div#linear6 {
+    background-image: linear-gradient(to bottom right, rgb(94, 3, 3), rgb(189, 45, 9), rgb(247, 100, 100));
+}
+
+div#rad1 {
+    background-image: radial-gradient(rgb(252, 59, 91),rgb(255, 140, 159),pink) ;
+}
+div#rad2 {
+    background-image: radial-gradient( rgb(74, 146, 122) 5%,rgb(68, 136, 54) 30%,green 40%);
+}
+div#rad3 {
+    background-image: radial-gradient( circle, rgb(146, 74, 96),rgb(146, 54, 85),rgb(146, 0, 38));
+}
+div#rad4 {
+    background-image: radial-gradient(rgb(39, 39, 39),rgb(143, 140, 140),rgb(243, 241, 241)) ;
+}
+div#rad5 {
+    background-image: radial-gradient( rgb(135, 13, 146),rgb(222, 108, 250),rgb(239, 196, 248));
+}
+div#rad6 {
+    background-image: radial-gradient( circle, rgb(251, 255, 2),rgb(139, 231, 19),rgb(5, 255, 17));
+}

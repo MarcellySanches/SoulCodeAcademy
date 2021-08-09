@@ -1,0 +1,25 @@
+aside {
+    float: right;
+    height: 300px;
+    width: 24%;
+}
+.bordas {
+        border: solid 1px;
+        border-radius: 5px;
+        margin: 5px;
+}
+
+footer {
+    height: 80px;
+    clear: both;
+
+}
+header {
+    height: 80px;
+}
+main{
+    height: 400px;
+    width: 74%;
+    float: left;
+
+}

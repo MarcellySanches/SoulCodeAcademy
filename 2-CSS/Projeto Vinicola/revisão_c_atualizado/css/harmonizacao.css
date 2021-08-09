@@ -1,0 +1,48 @@
+@import url("./style.css");
+
+.harmonizacao_box1,
+.harmonizacao_box2,
+.harmonizacao_box3,
+.harmonizacao_box4,
+.harmonizacao_box5,
+.harmonizacao_box6,
+.harmonizacao_box7{
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    color: var(--list-color);
+    font-family: var(--description-font);
+}
+
+.harmonizacao_box1 {
+    background-image: url("../img/cheese.jpg");
+}
+
+.harmonizacao_box2 {
+    background-image: url("../img/salad.jpg");
+}
+
+.harmonizacao_box3 {
+    background-image: url("../img/pasta.jpg");
+}
+
+.harmonizacao_box4 {
+    background-image: url("../img/sea.jpg");
+}
+
+.harmonizacao_box5 {
+    background-image: url("../img/meat.jpg");
+}
+
+.harmonizacao_box6 {
+    background-image: url("../img/meat-2.jpg");
+}
+
+.harmonizacao_box7 {
+    background-image: url("../img/dessert.jpg");
+}
+
+.backdrop{
+    background-color: rgba(0, 0, 0, .75);
+    padding: 5px 10px;
+}

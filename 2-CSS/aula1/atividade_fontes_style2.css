@@ -1,0 +1,27 @@
+p#um {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: normal;
+    font-weight: 800;    
+}
+
+p#dois {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-style: italic;
+    font-weight: 200;    
+}
+
+p#tres {
+    font-family: monospace;    
+    font-style: oblique;
+    font-weight: 500;
+}
+
+p#quatro {
+    font-family: fantasy;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: 400;
+}
+

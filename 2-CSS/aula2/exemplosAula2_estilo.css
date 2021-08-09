@@ -1,0 +1,6 @@
+div {
+    /* background-image: repeating-linear-gradient(to bottom right, rgb(250, 196, 222), rgb(255, 252, 175), rgb(247, 247, 196)); */
+    margin: 0 auto; 
+    border: 10px rgb(250, 196, 222);
+
+}

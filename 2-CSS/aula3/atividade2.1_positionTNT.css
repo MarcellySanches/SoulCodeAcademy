@@ -1,0 +1,124 @@
+body {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1100px;
+    height: 600px;
+    border: black solid 1px;
+}
+
+section{
+    height: 300px;
+} 
+
+ #section2{
+    height: 0;
+}
+header{
+    width: 1100px;
+    height: 100px;
+    background-image: linear-gradient(rgb(10, 167, 10), rgb(102, 184, 102));
+    position: fixed;
+    border: black solid 1px;
+    z-index: 10;
+    
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;  
+}
+.lista_menu {
+    float: left;  
+    margin: 0; 
+    padding: 20px;
+    
+}
+.item_menu {
+    display: block;
+    padding: 16px 60px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-right: black solid 1px;
+    text-decoration: none
+}
+.tnt {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 10px 50px;
+}
+img#tnt1{
+    position: absolute;
+    left: 130px;
+    top: 215px;  
+    z-index: 8;
+}
+ img#tnt2{
+    position: relative;
+    bottom: 350px;
+    right: 500px;
+}
+img#tnt3 {
+    position: relative;    
+    bottom: 350px; 
+    z-index: 8;
+}
+div#div1 {
+    width: 300px;
+    height: 300px;
+    border: solid black 2px;
+    position: relative;     
+    background:rgb(68, 36, 36);
+    margin-left: 50px;
+    margin-top: 250px;    
+}
+div#div2 {
+    width: 300px;
+    height: 300px;
+    border: solid black 2px;
+    position: absolute;    
+    background: rgb(177, 102, 102);
+    margin-left: 100px;  
+    left: 300px;
+    top: 250px;  
+    z-index: 8;
+    text-align: justify;
+    overflow: auto;    
+}
+div#div3 {
+    width: 300px;
+    height: 300px;
+    border: solid black 2px;
+    position: relative;    
+    bottom: 303px;
+    left: 730px; 
+    background: rgb(252, 209, 209);
+} 
+p#texto1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 10px;
+}
+form#formulario {
+
+    width: 170px;
+    padding: 20px;
+    margin-left: 8px;
+    border: black solid 1px;
+    position: fixed;
+    bottom: 130px;
+    background: rgb(63, 105, 105);
+    z-index: 9;
+}
+
+
+
+
+    

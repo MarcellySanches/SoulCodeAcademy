@@ -1,0 +1,47 @@
+p {
+    color: blue; 
+    font-size:medium;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+div {    
+    color: brown;
+    width: 300px;
+    height: 300px;
+    border: black;
+    text-align: justify;
+}
+h1 {
+    color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#ultimop {
+    background: teal;
+}
+
+.primeiros {
+    color: mediumvioletred;
+    width: 150px;
+    height: 250px;    
+}
+table,th,td,tr {    
+    border:solid black;
+    
+}
+
+
+footer {
+    background-color: grey;
+    margin: 100px;
+    padding: 10px;
+    border-style:dotted;   
+    border-width: 10px; 
+    border-color: rgb(255, 100, 200);
+    text-align: justify;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
