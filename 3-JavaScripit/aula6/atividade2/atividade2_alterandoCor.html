@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nome">Digite seu nome</label><br>
+        <input type="text" name="nome" onfocus="changecolorIn(this)" onblur="changecolorOut(this)">
+
+        <br>
+
+        <label for="idade">Digite sua idade</label><br>
+        <input type="text" name="idade" onfocus="changecolorIn(this)" onblur="changecolorOut(this)">   
+
+        <br>
+
+        <label for="cidade">Digite sua Cidade</label><br>
+        <input type="text" name="cidade" onfocus="changecolorIn(this)" onblur="changecolorOut(this)">   
+    
+    </form>    
+</body>
+
+<script>    
+
+    function changecolorIn(inputs) {
+       
+        inputs.style.backgroundColor = "green";                      
+    }   
+   
+   function changecolorOut(inputs) {
+       inputs.style.backgroundColor="red";
+   }
+
+</script>
+</html>
+
+

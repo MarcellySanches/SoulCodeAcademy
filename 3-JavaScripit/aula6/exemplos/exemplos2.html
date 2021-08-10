@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body onload="bem_vindo()">
+    <p>Clique no botão a seguir e veja o resultado</p>
+    <form>
+       <input type="button" onclick="sayHello()" value="Say Hello" />
+    </form>
+    <br>
+
+
+
+    
+    <p>Arraste o seu mouse para dentro da divisão para ver o resultado:</p> 
+    
+    <div onmouseover="over()" onmouseout="out()"> 
+        <h2 id="title"> Agora está dentro da divisão </h2> 
+    </div> 
+  
+
+</body>
+<script>
+    // function sayHello() {
+    //             alert("Hello World")
+    // }
+
+    // function over() {
+       
+    //     document.getElementById("title").style.backgroundColor="red"
+    //     document.write ("Mouse Over");
+    // }
+    // function out() {
+    //     document.getElementById("title").style.backgroundColor="blue"
+    // }
+
+
+    function bem_vindo() {
+        
+        alert("Seja bem-vindo!")
+    }
+
+</script>
+</html>

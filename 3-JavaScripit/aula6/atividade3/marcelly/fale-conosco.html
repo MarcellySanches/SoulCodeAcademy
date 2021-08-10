@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="hotel.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contato</title>
+    
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            
+            <a href="index.html"><img class="logo" src="logo.png" alt="logo pizza house"></a>
+            <ul>
+                <li><a href="#">Viagens</a></li>
+                <li><a href="#">Cruzeiros</a></li>
+                <li><a href="#">Informações</a></li>
+                <li><a href="#">Contato</a></li>
+                <li>
+                    <input class="search-bar" type="search" placeholder="Pesquisar">
+                    <button class="btn-buscar" type="submit">Buscar</button>
+
+                    <button id="fonte_acessivel" onclick="aumenta_fonte();">A+</button>
+                    <!-- Marcelly -->
+                    <button id="fonte_acessivel2" onclick="diminui_fonte();">A-</button>
+                    <!-- Marcelly -->
+                    
+                </li>
+            </ul>
+        </div>
+        
+    </header>
+    <main>
+        <section id="banner">
+            <p class="banner-text">CENTRAL DE AJUDA</p>
+            <p class="banner-text">A gente simplifica pra você!</p>
+        </section>
+
+        <section id="filho1" class="acessib_aumenta acessib_diminui"> 
+        <!-- Marcelly -->
+
+            <h1>CONTATO</h1>
+            <br>
+            <h2>Voare Turismo Ltda</h2>
+            <br>
+            <p><strong>Endereço: </strong>R. Helena, 235 - Vila Olímpia, São Paulo - SP, 04552-050</p>
+            <p><strong>CEP: </strong>04552-050</p>
+            <p><strong>Telefone: </strong>(11) 4810-3644</p>
+            <p><strong>Email: </strong>voareturismo@voare.com.br</p>        
+            <br>
+            <h3>Você pode entrar em contato usando o formulário abaixo:</h3>
+            <br>
+
+            <form action="/pagina-processa-dados-do-form" method="post" class="forjade acessib_aumenta acessib_diminui">
+                <!-- Marcelly -->
+
+                <div class="itemcon">
+                    <select name="select" class="select">
+                        <option value="Selecione" selected>Selecione uma opção</option>
+                        <option value="Compras">Compras</option>
+                        <option value="Financeiro">Financeiro</option>
+                        <option value="Dúvidas">Dúvidas</option>
+                        <option value="Dúvidas">Outros Assuntos</option>
+                    </select>
+                </div>
+                <div class="itemcon">
+                    <label for="nome">Nome: <br></label>
+                    <input type="text" id="nome" />
+                </div>
+                <div class="itemcon">
+                    <label for="telefone">Telefone: <br></label>
+                    <input type="phone" id="telefone" />
+                </div>
+                <div class="itemcon">
+                    <label for="email">E-mail: <br></label>
+                    <input type="email" id="email" />
+                </div>
+                <div class="itemcon">
+                    <label for="msg">É só digitar sua mensagem aqui, que a gente te responde por e-mail. <br></label>
+                    <textarea id="msg"></textarea>
+                </div>
+                <div class="butjad">
+
+                    <button type="reset" class="acessib_aumenta acessib_diminui">Limpar</button>
+                    <!-- Marcelly -->
+                    <button type="submit" class="acessib_aumenta acessib_diminui">Enviar</button>
+                    <!-- Marcelly -->
+
+                </div>
+        </section>
+
+        <section>
+            <iframe id="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.302367056458!2d-46.68851868502161!3d-23.59348658466693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5746406ee8f7%3A0x32bbd06ffc892321!2sSoul%20Code%20Academy!5e0!3m2!1spt-BR!2sbr!4v1628540424293!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <section id="menu-footer">           
+            <nav id="list2-footer">               
+                <a href="https://www.instagram.com/pizzahousegoiatuba/" target="_blank"><span class="iconify"
+                        data-icon="brandico:instagram" data-inline="false"></span></a>
+                <a href="https://www.facebook.com/Super-Pizza-Goiatuba-276482939151246/" target="_blank"><span
+                        class="iconify" data-icon="bi:facebook" data-inline="false"></span></a>
+            </nav>
+        </section>
+        <section id="copy">
+            <p>Copyright &copy; @2021 Voare Turismo Ltda </p>
+        </section>
+        
+    </footer>
+</body>
+
+<script src="botao.js"></script>
+<!-- Marcelly -->
+
+</html>
